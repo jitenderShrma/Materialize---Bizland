@@ -1,0 +1,47 @@
+.main-header {
+  background: url('../img/showcase.jpg');
+  height: 100vh;
+  min-height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: relative;
+}
+
+.primary-overlay {
+  background: rgba(63, 57, 77, 0.7);
+  display: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.header-content {
+  padding-top: 100px;
+}
+.contact-btn {
+  opacity: 0.5;
+  position: absolute;
+  left: 47%;
+  bottom: 5%;
+}
+.adv-col {
+  min-height: 407px !important;
+}
+.section-box .row {
+  margin-bottom: 0!important;
+  margin-top: 0!important;
+}
+.main-footer a {
+  padding-top: 14px;
+}
+.contact-section {
+  position: relative;
+}
+#google-map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
